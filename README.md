@@ -46,6 +46,35 @@ MobileNetV2 was selected for real-time inference due to its lightweight architec
 
 ---
 
+## 📁 Project Structure
+
+```bash
+Indian-Currency-Recognition-System/
+│
+├── data/
+│ └── test_images/ # Sample images for testing
+│
+├── models/
+│ └── mobilenetv2/ # Trained MobileNetV2 (SavedModel format)
+│ ├── saved_model.pb
+│ ├── fingerprint.pb
+│ ├── assets/
+│ └── variables/
+│
+├── notebook/
+│ ├── train_mobilenetv2.ipynb # Training notebook (MobileNetV2)
+│ └── train_efficientnetb0.ipynb # Training notebook (EfficientNetB0)
+│
+├── src/
+│ ├── realtime_currency_detection.py # Real-time webcam detection + voice
+│ └── test_image_trial.py # Image-based testing script
+│
+├── class_names.json # Class label mapping
+├── requirements.txt # Project dependencies
+├── .gitignore # Ignored files (env, cache, etc.)
+└── README.md # Project documentation
+```
+
 ## ⚙️ Installation
 
 ### 1. Clone the repository
