@@ -55,24 +55,33 @@ git clone https://github.com/your-username/Indian-Currency-Recognition-System.gi
 cd Indian-Currency-Recognition-System
 ```
 ### 2. Create virtual environment (optional but recommended)
+
+```bash
 python -m venv tf_env
-
 tf_env\Scripts\activate   # Windows
-
+```
 ### 3. Install dependencies
+
+```bash 
 pip install -r requirements.txt
-
+```
 ### 4. Run Real-Time Detection
+
+```bash
 cd src
-
 python realtime_currency_detection.py
-
+```
 Say "open camera" when prompted.
 
 Press Q to quit.
 
 ### 5. Test on Images
-python test_image_trial.py
 
-### 6. Test on Images
+```bash
 python test_image_trial.py
+```
+### 6. Test on Images
+
+```bash
+python test_image_trial.py
+```
