@@ -93,12 +93,12 @@ pip install -r requirements.txt
 cd src
 python realtime_currency_detection.py
 
-### 5. Test on Images
-python test_image_trial.py
-
 Say "open camera" when prompted.
 
 Press Q to quit.
 
-###🧪 Test on Images
+### 5. Test on Images
+python test_image_trial.py
+
+### 6. Test on Images
 python test_image_trial.py
