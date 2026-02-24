@@ -1,3 +1,0 @@
-tf_env\Scripts\activate
-python realtime_currency_detection.py
-python test_image_trial.py
