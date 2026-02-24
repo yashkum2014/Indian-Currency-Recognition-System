@@ -89,9 +89,12 @@ tf_env\Scripts\activate   # Windows
 ### 3. Install dependencies
 pip install -r requirements.txt
 
-### ▶️ Run Real-Time Detection
+### 4. Run Real-Time Detection
 cd src
 python realtime_currency_detection.py
+
+### 5. Test on Images
+python test_image_trial.py
 
 Say "open camera" when prompted.
 
