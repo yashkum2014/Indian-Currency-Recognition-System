@@ -91,6 +91,7 @@ pip install -r requirements.txt
 
 ### 4. Run Real-Time Detection
 cd src
+
 python realtime_currency_detection.py
 
 Say "open camera" when prompted.
