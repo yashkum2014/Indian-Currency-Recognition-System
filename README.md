@@ -50,9 +50,11 @@ MobileNetV2 was selected for real-time inference due to its lightweight architec
 Currency_Detection/
 │
 ├── data/
+|
 │ └── test_images/
 │
 ├── models/
+|
 │ └── mobilenetv2/
 │ ├── saved_model.pb
 │ ├── fingerprint.pb
@@ -84,6 +86,7 @@ cd Indian-Currency-Recognition-System
 ```
 ### 2. Create virtual environment (optional but recommended)
 python -m venv tf_env
+
 tf_env\Scripts\activate   # Windows
 
 ### 3. Install dependencies
