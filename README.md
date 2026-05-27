@@ -35,9 +35,7 @@ MobileNetV2 was selected for real-time inference due to its lightweight architec
 
 ---
 
-## 🧠 Tech Stack
-
-# Tools & Technologies Used
+## Tools & Technologies Used
 
 | Tool / Technology | Type | Usage in Project |
 |-------------------|------|------------------|
