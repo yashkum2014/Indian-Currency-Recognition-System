@@ -6,7 +6,7 @@ The system detects currency notes via webcam and provides **voice feedback**, ma
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 This project uses Convolutional Neural Networks (CNN) with transfer learning to classify Indian currency notes.  
 Two models were trained and evaluated:
@@ -18,7 +18,7 @@ MobileNetV2 was selected for real-time inference due to its lightweight architec
 
 ---
 
-## ✨ Features
+## Features
 
 - Real-time currency detection using webcam  
 - Voice output for detected denomination  
@@ -29,7 +29,7 @@ MobileNetV2 was selected for real-time inference due to its lightweight architec
 
 ---
 
-## 📊 Model Performance
+## Model Performance
 
 - **MobileNetV2 Accuracy:** 86.75%
 
@@ -78,7 +78,7 @@ MobileNetV2 was selected for real-time inference due to its lightweight architec
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 Indian-Currency-Recognition-System/
@@ -107,7 +107,7 @@ Indian-Currency-Recognition-System/
 └── README.md # Project documentation
 ```
 
-## ⚙️ Installation
+## Installation
 
 ### 1. Clone the repository
 
